@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family:'Amazon Ember', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #131921ec;
+    height: auto;
+
+}
+header{
+    width: 100%;
+    position: sticky;
+}
+.navigation-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #232F3E;
+}
+
+.amazon-logo a img{
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+.deliver{
+    padding-left: 1rem;
+    font-size: 12px;
+}
+.location-area{
+    display: flex;
+}
+.location-area p{
+    margin-left: 0.3rem;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.search-pannel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-selectbox select{
+    border: none;
+    padding: 0.55rem 0rem 0.5rem 0rem;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    color: black;
+    width: 3rem;
+}
+.search-selectbox select option{
+    color: black;
+}
+.searchbar input{
+    border: none;
+    padding: 0.55rem 0rem 0.55rem 0.2rem;
+    color: black;
+    width: 600px;
+
+}
+.searchbarelements{
+    display: flex;
+    align-items: center;
+}
+.searchbarelements .find, .capture, .alexa{
+    height: 1.5rem;
+    padding: 0.3rem;
+}
+.capture, .alexa{
+    background-color: #DDDDDD;
+}
+.find{
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    background-color: #febd69;
+}
+.language p{
+    display: inline-block;
+}
+.cart{
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+}
+.cart i{
+    padding: 0.5rem 0.2rem 0rem 0rem;
+    font-size: 2rem;
+}
+.return, .name{
+    font-size: 12px;
+}
+.orders, .acc-info{
+    font-size: 14px;
+    font-weight: bold
+}
+/* Amazon Brand Products */
+
+.bannerimage{
+    height: 20rem;
+}
+.outer-productscontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0rem 3rem 0rem 3rem;
+}
+.imagecontainer{
+    border-radius: 0.5rem;
+    background-color: #ededed;
+}
+h2{
+    margin: 0.5rem 0rem 0.5rem 1rem;
+    color: black;
+}
+.inner-productcontainer{
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images{
+    margin: 0.5rem;
+    height: 6rem;
+    width: 8rem;
+}
+.images img{
+    border-radius: 0.3rem;
+    width: 8rem;
+    height: 6rem;
+}
+/* footer */
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    background-color: #23293E;
+}
+.footbar{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    gap: 4rem;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+
+}
+.knowus-items h3, .connectwithus-items h3, .makemoney-items h3, .letushelp-items h3{
+    margin-left: 0.8rem
+}
+.knowus-items li, .connectwithus-items li, .makemoney-items li, .letushelp-items li{
+    font-size: 13px;
+    margin: 1rem 0rem 1rem 0.8rem;
+    color: #DDDDDD;
+}
+hr{
+    color: #DDDDDD;
+    opacity: 0.5;
+}
+.bottomlogo{
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    text-align: center;
+}
+.endtext-part{
+    background-color: rgb(25, 24, 49);
+    padding: 3rem 0rem 3rem 0rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.endtext-links a li{
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+
+}
+.endtext p{
+    color: #DDDDDD;
+    text-align: center;
+    font-size: 12px;
+
+}
+main{
+    height: auto;
+}
